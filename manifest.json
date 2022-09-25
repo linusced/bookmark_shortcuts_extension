@@ -1,0 +1,73 @@
+{
+    "name": "Bookmark Shortcuts Extension",
+    "version": "1.1",
+    "manifest_version": 2,
+    "description": "Add keyboard shortcuts for 10 of your bookmarks.",
+    "permissions": [
+        "bookmarks",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "./script.js"
+        ],
+        "persistent": true
+    },
+    "icons": {
+        "128": "./icon.png"
+    },
+    "commands": {
+        "bookmark_0": {
+            "suggested_key": {
+                "default": "Ctrl+1"
+            },
+            "description": "Bookmark 1",
+            "global": false
+        },
+        "bookmark_1": {
+            "suggested_key": {
+                "default": "Ctrl+2"
+            },
+            "description": "Bookmark 2",
+            "global": false
+        },
+        "bookmark_2": {
+            "suggested_key": {
+                "default": "Ctrl+3"
+            },
+            "description": "Bookmark 3",
+            "global": false
+        },
+        "bookmark_3": {
+            "suggested_key": {
+                "default": "Ctrl+4"
+            },
+            "description": "Bookmark 4",
+            "global": false
+        },
+        "bookmark_4": {
+            "description": "Bookmark 5",
+            "global": false
+        },
+        "bookmark_5": {
+            "description": "Bookmark 6",
+            "global": false
+        },
+        "bookmark_6": {
+            "description": "Bookmark 7",
+            "global": false
+        },
+        "bookmark_7": {
+            "description": "Bookmark 8",
+            "global": false
+        },
+        "bookmark_8": {
+            "description": "Bookmark 9",
+            "global": false
+        },
+        "bookmark_9": {
+            "description": "Bookmark 10",
+            "global": false
+        }
+    }
+}
